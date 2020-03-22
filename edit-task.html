@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>add task</title>
+</head>
+<body>
+<table>
+    <tr>
+        <td>
+sura: <select  name="sura" id="sura"  >
+
+        <option value="1"> elfataha</option>
+        <option value="2" selected> elbaqara</option>
+        <option value="3"> alemran</option>
+
+
+</select>
+        </td>
+    </tr>
+    <tr>
+        <td>
+
+          from aya <input type="range" min="1" max="286" value="10">  selected value:10 <br/>
+           to aya <input type="range" min="1" max="286" value="20">  selected value:20 <br/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            due date : <input type="date" value="2020-03-24"> <br/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          complete date : <input type="date" > <br/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            task type: <input type="radio" value="memorization" name="type" checked> memorization
+            <input type="radio" value="revision" name="type"> revision <br/>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
